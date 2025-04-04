@@ -33,7 +33,7 @@ jobs:
 
   cd:
     needs: ci
-    runs-on: ubuntu-latest
+    runs-on: gane-runner
     steps:
 
       - uses: actions/checkout@v3
