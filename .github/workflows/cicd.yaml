@@ -33,7 +33,7 @@ jobs:
 
   cd:
     needs: ci
-    runs-on: gane-runner
+    runs-on: self-hosted
     steps:
 
       - uses: actions/checkout@v3
